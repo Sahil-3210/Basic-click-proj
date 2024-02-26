@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+}
+#mainn{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#click-count{
+    
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:monospace;
+    font-size: 30px;
+
+}
+#para {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: rgb(10, 10, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px; /* Add margin between buttons */
+}
+
+
+

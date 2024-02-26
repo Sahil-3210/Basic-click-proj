@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Click Calculator</title>
+    <link rel="stylesheet" href="/Click_Calculator/click.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="mainn">CLICK CALCULATOR</h1>
+    </header>
+    <main>
+      <div id="para">
+        <p>You can count your click to see how fast you are..</p>
+      </div>
+      
+      <h1 id="click-count"></h1>
+      
+
+      <div class="center-button">
+        <button class="button" onclick="defaultClick++; document.querySelector('#click-count').innerText =`Clicked till now ${defaultClick}`; ">Click Me</button>
+
+        <button class="button" onclick="defaultClick=0; document.querySelector('#click-count').innerText =`Clicked till now ${defaultClick}`;">Restart</button>
+      </div>
+
+      
+    </main>
+    <script src="click.js"></script>
+  </body>
+</html>
